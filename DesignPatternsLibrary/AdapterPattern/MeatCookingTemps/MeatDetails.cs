@@ -5,15 +5,13 @@ namespace AdapterPattern.MeatSafeCookingTemp
     //Adaptor class, which wraps the meat class adn initializes that class's values
     class MeatDetails : Meat
     {
-        private MeatDatabase meatDatabase;
-
         public MeatDetails(string name) : base(name)
         {
         }
 
         public override void LoadData()
         {
-            meatDatabase = new MeatDatabase();
+            var meatDatabase = new MeatDatabase();
 
             SafeCookingTempFahrenheit = meatDatabase.GetSafeCookTemp(MeatName, TemperatureType.Faherenheit);
             SafeCookTempCelsius = meatDatabase.GetSafeCookTemp(MeatName, TemperatureType.Celsius);
