@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeatCookingTemps", "Adapter
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TypesOfVehicles", "TypesOfVehicles\TypesOfVehicles.csproj", "{94C75E84-BCA0-4CFE-AD26-91241BDA1C83}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompoundProperties", "CompoundProperties\CompoundProperties.csproj", "{E40B5F69-5781-46BB-9A5F-FCA079446D04}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{94C75E84-BCA0-4CFE-AD26-91241BDA1C83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94C75E84-BCA0-4CFE-AD26-91241BDA1C83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94C75E84-BCA0-4CFE-AD26-91241BDA1C83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E40B5F69-5781-46BB-9A5F-FCA079446D04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E40B5F69-5781-46BB-9A5F-FCA079446D04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E40B5F69-5781-46BB-9A5F-FCA079446D04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E40B5F69-5781-46BB-9A5F-FCA079446D04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
